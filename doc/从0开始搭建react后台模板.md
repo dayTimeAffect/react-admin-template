@@ -39,6 +39,14 @@
 
 ```
 yarn create react-app . --template typescript
+yarn eject
+
+```
+
+**二、引入需要的依赖**
+
+```
+yarn add less less-loader
 yarn add antd
 ```
 
