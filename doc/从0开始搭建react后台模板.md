@@ -30,3 +30,15 @@
 + [react](https://react.docschina.org/)(用于构建用户界面的 JavaScript 库)
 + [antd](https://3x.ant.design/index-cn)(antd 是基于 Ant Design 设计体系的 React UI 组件库，主要用于研发企业级中后台产品。)
 + [typescript](https://www.tslang.cn/)
+
+
+
+### 项目搭建
+
+**一、创建项目**
+
+```
+yarn create react-app . --template typescript
+yarn add antd
+```
+
