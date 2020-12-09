@@ -26,7 +26,7 @@
     + echarts图标
 + ...
 
-#### 依赖：
+#### 主要依赖：
 + [react](https://react.docschina.org/)(用于构建用户界面的 JavaScript 库)
 + [antd](https://3x.ant.design/index-cn)(antd 是基于 Ant Design 设计体系的 React UI 组件库，主要用于研发企业级中后台产品。)
 + [typescript](https://www.tslang.cn/)
@@ -45,8 +45,7 @@ yarn eject
 
 **二、引入需要的依赖**
 
-```
-yarn add less less-loader
-yarn add antd
-```
-
++ 新增支持less语法 ( `yarn add less less-loader` )
++ 新增antd框架 ( `yarn add antd` )
++ 新增classnames优化动态类名的创建 ( `yarn add -D classnames` )
++ 新增Git日志约束工具 ( [给你的项目搭建 Git 提交日志规范](https://juejin.cn/post/6904194531709681672/) )
