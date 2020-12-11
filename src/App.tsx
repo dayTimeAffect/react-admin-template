@@ -1,7 +1,6 @@
 import React from 'react';
 import { Layout } from 'antd'
 import './style/index.less';
-// import 'antd/dist/antd.less';
 import './style/antd/index.less';
 
 const { Header, Sider, Content, Footer } = Layout
