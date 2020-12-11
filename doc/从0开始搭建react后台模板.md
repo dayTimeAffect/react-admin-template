@@ -40,12 +40,18 @@
 ```
 yarn create react-app . --template typescript
 yarn eject
-
 ```
 
 **二、引入需要的依赖**
 
-+ 新增支持less语法 ( `yarn add less less-loader` )
++ 新增支持less语法 [React中引入less](https://juejin.cn/post/6904902292496089096)
 + 新增antd框架 ( `yarn add antd` )
 + 新增classnames优化动态类名的创建 ( `yarn add -D classnames` )
 + 新增Git日志约束工具 ( [给你的项目搭建 Git 提交日志规范](https://juejin.cn/post/6904194531709681672/) )
+
+##  项目中的系列文章
+
++ [React中引入less](https://juejin.cn/post/6904902292496089096)
+
++ [给你的项目搭建 Git 提交日志规范](https://juejin.cn/post/6904194531709681672/) 
++ [antd 踩坑之 javascriptEnabled配置](https://juejin.cn/post/6904911555909910542)
