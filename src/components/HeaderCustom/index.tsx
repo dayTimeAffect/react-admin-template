@@ -5,10 +5,21 @@
  */
 
 import React from "react";
+import styles from "./header.module.less"
+import {Avatar} from "antd"
+import {MenuFoldOutlined} from "@ant-design/icons"
 
-const HeaderCustom = () => {
+interface HeaderCustomProps {
+    collapsed: Boolean,
+    setCollapsed: Function
+}
+
+const HeaderCustom: React.FC<HeaderCustomProps> = (props) => {
     return (
-        <div>1</div>
+        <div className={styles.headerCustom_container}>
+            <MenuFoldOutlined />
+            <Avatar size={64} >U</Avatar>
+        </div>
     )
 }
 export default HeaderCustom
